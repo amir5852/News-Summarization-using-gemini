@@ -7,7 +7,7 @@ import os
 # Load the environment variables from the .env file
 load_dotenv()
 
-# Replace with your actual API key from the .env file
+# API key from the .env file
 NEWS_API_KEY = os.getenv('NEWS_API_KEY')
 API_KEY = os.getenv('GENAI_API_KEY')
 
